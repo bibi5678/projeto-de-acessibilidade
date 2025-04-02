@@ -149,7 +149,7 @@ h2 {
     right: 20px;
     z-index: 1000;
 }
-.rotaçao-botao{
+.rotacao-botao{
     transform: rotate(-90deg);
     transform-origin: right center;
 }
