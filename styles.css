@@ -3,6 +3,9 @@
 
 :root {
     --laranja-claro: #FF862A;
+    --auto-contraste-fundo:#072b5a;
+    --auto-contraste-texto:#b8e4ff;
+    --alto-contraste-link:#f6cdfe;
 }
 
 body {
@@ -163,4 +166,13 @@ h2 {
 }
 .apresenta-lista{
     display: none;
+}
+.alto-contraste{
+    background-color: var(--alto-contraste-fundo);
+    color: var(--alto-contraste-texto);
+}
+.alto-contraste, .alto-contraste fotter, .alto-contraste .formulario{
+    background-color: var(--alto-contraste-fundo);
+    color: var(--alto-contraste-texto)
+
 }
